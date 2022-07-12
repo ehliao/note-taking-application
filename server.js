@@ -4,7 +4,7 @@ const path = require('path');
 const { listenerCount } = require('process');
 
 // Setting PORT
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 // Express app
 const app = express();
 
@@ -60,6 +60,7 @@ app.delete('/api/notes/:id', (req,res) => {
         currNote.id = newID.toString();
         newID++;
     }
+    // BONUS POINT: Users are able to delete the note
     fs.writeFileSync('./db/db.json', JSON.stringify(noteText));
     res.json(noteText);
 });
