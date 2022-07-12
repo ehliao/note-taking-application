@@ -1,67 +1,70 @@
 
+# Note Taking Application
+
+<br/>
+
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Test](#test)
+* [License](#license)
+* [Contribution](#contribution)
+* [GitHub](#github)
+* [Email](#email)
   
-  # Note Taking Application
+<br/>
 
-  <br/>
-
-  ## Table of Contents
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Test](#test)
-  * [License](#license)
-  * [Contribution](#contribution)
-  * [GitHub](#github)
-  * [Email](#email)
-  
-  <br/>
-
-  # Description
-  *This section describes what this project is*
-  ## This challenge provides users with a note taking application to store reminders as well as to delete notes that are no longer needed.
-
-  <br/>
-
-  # Installation
-  *This section provides installation instructions*
-  ## Install the project by opening the terminal and entering node index.js into the command line and answer the questions when prompted
-
-  <br/>
-
-  # Usage
-  *This section provides the usage purpose of the project*
-  ## The use of this project is to provide a template for users to generate their readme file
-
-  <br/>
-
-  # Test
-  *This section provides instructions on how to test the project*
-  ## Test the file once readme is generated through the preview mode
-
-  <br/>
-
-  # License
-  *This section provides licensing information*
-  ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Description
+The task of this challenged was to modify a starter code for a Note Taker Application. The application is utilized to write and save notes. I also completed the bonus task of adding the option to delete a note that is no longer needed. 
 
 
-  <br/>
+## User Story
 
-  # Contribution
-  *This sections lists the number or names of the people who contributed to the project*
-  ## Elaine Liao
+```
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
+```
 
-  <br/>
 
-  # GitHub Username
-  ## (https://github.com/ehliao)
+## Acceptance Criteria
 
-  <br/>
+```
+GIVEN a note-taking application
+WHEN I open the Note Taker
+THEN I am presented with a landing page with a link to a notes page
+WHEN I click on the link to the notes page
+THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+WHEN I enter a new note title and the note’s text
+THEN a Save icon appears in the navigation at the top of the page
+WHEN I click on the Save icon
+THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+WHEN I click on an existing note in the list in the left-hand column
+THEN that note appears in the right-hand column
+WHEN I click on the Write icon in the navigation at the top of the page
+THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+```
 
-  # E-mail Address
-  ## elaine_liao@sbcglobal.net
+<br/>
 
-  <br/>
+# Deployed Application
+Deployed application through Heroku: [Note Taker Application](https://desolate-hollows-46790.herokuapp.com/)
 
-  # Video Submission
+<br/>
+
+# Screenshots
+![Screenshot]()
+
+<br/>
+
+# GitHub Username
+(https://github.com/ehliao)
+
+<br/>
+
+
+<br/>
+
+# Video Submission
   https://drive.google.com/file/d/1a63uzIXC8rYIb2De1k0fVQ_bZxBKxSr1/view
