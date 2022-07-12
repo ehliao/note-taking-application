@@ -5,13 +5,9 @@
 
 ## Table of Contents
 * [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Test](#test)
-* [License](#license)
-* [Contribution](#contribution)
+* [Links](#links)
+* [Screenshots](#screenshots)
 * [GitHub](#github)
-* [Email](#email)
   
 <br/>
 
@@ -48,23 +44,18 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 <br/>
 
-# Deployed Application
-Deployed application through Heroku: [Note Taker Application](https://desolate-hollows-46790.herokuapp.com/)
+# Links
+* Deployed application through Heroku: [Note Taker Application](https://desolate-hollows-46790.herokuapp.com/)
+* GitHub Repository: [GitHub Repo](https://github.com/ehliao/note-taking-application/)
 
 <br/>
 
 # Screenshots
-![Screenshot]()
+![alt text](/public/assets/Capture.JPG)
+![alt text](/public/assets/Capture1.JPG)
+![alt text](/public/assets/Capture2.JPG)
 
 <br/>
 
-# GitHub Username
-(https://github.com/ehliao)
-
-<br/>
-
-
-<br/>
-
-# Video Submission
-  https://drive.google.com/file/d/1a63uzIXC8rYIb2De1k0fVQ_bZxBKxSr1/view
+# GitHub
+[My GitHub Username](https://github.com/ehliao)
