@@ -47,7 +47,7 @@ app.post('/api/notes', (req, res) => {
     res.json(noteText);
 });
 
-// Delete method which deletes the note
+// BONUS: Delete method which deletes the note
 app.delete('/api/notes/:id', (req,res) => {
     let noteText = JSON.parse(fs.readFileSync('./db/db.json', "utf-8"));
     let noteID = (req.params.id);
@@ -60,7 +60,6 @@ app.delete('/api/notes/:id', (req,res) => {
         currNote.id = newID.toString();
         newID++;
     }
-    // BONUS POINT: Users are able to delete the note
     fs.writeFileSync('./db/db.json', JSON.stringify(noteText));
     res.json(noteText);
 });
